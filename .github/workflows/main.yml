@@ -46,4 +46,7 @@ jobs:
         with:
           images: ohsouza/rotten-potatoes:v${{ github.run_number }}
           manigests: |
-            k8s/deployment.yaml
+            k8s/deployment-mongodb.yaml
+            k8s/deployment-webapp.yaml
+            k8s/service-mongodb.yaml
+            k8s/service-webapp.yaml            
