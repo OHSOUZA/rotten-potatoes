@@ -28,4 +28,3 @@ jobs:
           tags: 
             ohsouza/rotten-potatoes:latest
             ohsouza/rotten-potatoes:v${{ github.run_number }}
-          
