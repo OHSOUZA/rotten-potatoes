@@ -26,4 +26,5 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: 
-            ohsouza/rotten-potatoes:${{ github.run_number }}
+            ohsouza/rotten-potatoes:latest 
+            ohsouza/rotten-potatoes:v${{ github.run_number }}
